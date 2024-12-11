@@ -1,4 +1,11 @@
 #I have created a Microsoft Excel Potoo RGA template, replacing an outdated version that was no longer suitable for our needs.
 ##This new version is plug and play, which has a areas that need to be populated and then the file can be exported to a PDF.
-###This file also has the print areas included to the right dimensions.
-####Robert Bosch Tool Corporation.
+##This file also has the print areas included to the right dimensions.
+##Robert Bosch Tool Corporation.
+##The original RGA was a warranty Microsoft Excel file that was used for RGA Mystery Puchases (Potoo Mystery Buy Program RGA).
+##There were several columns and rows with information and details that were not needed for this Unilateral Pricing Program RGA Mystery Buy Program for unauthorized sellers.
+##The revised file is cleaner and simplistic.
+##On the revised version, there are only (2) tabs compared to the previous file with (4) tabs.
+##Added additional columns that are related to the ASIN and SKU for the Mystery Buy, examples are Seller ID, Seller Name, Image Links, Order ID, and more.
+##Make changes to Column M and it will reflect on both tabs.
+##There are formulas setup in the revised file that will auto-update.
