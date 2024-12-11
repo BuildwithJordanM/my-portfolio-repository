@@ -10,3 +10,4 @@ This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program
 Second page with unique items count by SAP Name.
   -Click New Measure and then use the formula below.
   -UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU/Catalog #])
+https://app.powerbi.com/groups/me/dashboards/49416c8e-421e-40a4-b3a7-42468b64a657?experience=power-bi
