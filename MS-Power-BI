@@ -1,0 +1,12 @@
+Created 2 Microsoft Power BI Reports from the UP-ViolationDatabase Excel file.
+Created a dashboard with these (2) pages.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and category with a line chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Stop-Ship Feedback with a line chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Data Source with a line chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Domain with a line chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Non-Acquiscence with a line chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations with a stacked column chart.
+This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations with a stacked bar chart.
+Second page with unique items count by SAP Name.
+  -Click New Measure and then use the formula below.
+  -UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU/Catalog #])
