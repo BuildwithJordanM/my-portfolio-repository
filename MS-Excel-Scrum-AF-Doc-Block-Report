@@ -1,0 +1,74 @@
+function main(workbook: ExcelScript.Workbook) {
+	let selectedSheet = workbook.getActiveWorksheet();
+	// Set fill color to #00b0f0 for range B1 on selectedSheet
+	selectedSheet.getRange("B1").getFormat().getFill().setColor("#00b0f0");
+	// Set font bold to true for range 1:1 on selectedSheet
+	selectedSheet.getRange("1:1").getFormat().getFont().setBold(true);
+	// Insert at range C:C on selectedSheet, move existing cells right
+	selectedSheet.getRange("C:C").insert(ExcelScript.InsertShiftDirection.right);
+	// Set fill color to #ffff00 for range C1 on selectedSheet
+	selectedSheet.getRange("C1").getFormat().getFill().setColor("#ffff00");
+	// Set range C1 on selectedSheet
+	selectedSheet.getRange("C1").setValue("WF Desc");
+	// Insert at range E:E on selectedSheet, move existing cells right
+	selectedSheet.getRange("E:E").insert(ExcelScript.InsertShiftDirection.right);
+	// Insert at range E:E on selectedSheet, move existing cells right
+	selectedSheet.getRange("E:E").insert(ExcelScript.InsertShiftDirection.right);
+	// Insert at range E:E on selectedSheet, move existing cells right
+	selectedSheet.getRange("E:E").insert(ExcelScript.InsertShiftDirection.right);
+	// Set range E1:G2 on selectedSheet
+	selectedSheet.getRange("E1:G2").setFormulasLocal([["Year","Month","#"],["=YEAR(D2)","=TEXT(D2,\"mmmm\")","=MONTH(D2)"]]);
+	// Set number format for range E2 on selectedSheet
+	selectedSheet.getRange("E2").setNumberFormatLocal("0");
+	// Set fill color to #ffff00 for range E1:G1 on selectedSheet
+	selectedSheet.getRange("E1:G1").getFormat().getFill().setColor("#ffff00");
+	// Insert at range N:N on selectedSheet, move existing cells right
+	selectedSheet.getRange("N:N").insert(ExcelScript.InsertShiftDirection.right);
+	// Set fill color to #00b0f0 for range M1 on selectedSheet
+	selectedSheet.getRange("M1").getFormat().getFill().setColor("#00b0f0");
+	// Set fill color to #ffff00 for range N1 on selectedSheet
+	selectedSheet.getRange("N1").getFormat().getFill().setColor("#ffff00");
+	// Set range N1 on selectedSheet
+	selectedSheet.getRange("N1").setValue("Sales Office Desc");
+	// Set wrap text to true for range N1 on selectedSheet
+	selectedSheet.getRange("N1").getFormat().setWrapText(true);
+	// Indent set to 0 for range N1 on selectedSheet
+	selectedSheet.getRange("N1").getFormat().setIndentLevel(0);
+	// Set range R1 on selectedSheet
+	selectedSheet.getRange("R1").setValue("Payer Name");
+	// Insert at range R:R on selectedSheet, move existing cells right
+	selectedSheet.getRange("R:R").insert(ExcelScript.InsertShiftDirection.right);
+	// Set range R1 on selectedSheet
+	selectedSheet.getRange("R1").setValue("Hierarchy Name");
+	// Set fill color to #ff0000 for range R1 on selectedSheet
+	selectedSheet.getRange("R1").getFormat().getFill().setColor("#ff0000");
+	selectedSheet.getFreezePanes().freezeRows(1);
+	// Group at range T:AW on selectedSheet
+	selectedSheet.getRange("T:AW").group(ExcelScript.GroupOption.byColumns); 
+	// Insert at range AX:BB on selectedSheet, move existing cells right
+	selectedSheet.getRange("AX:BB").insert(ExcelScript.InsertShiftDirection.right);
+	// Set range AX1 on selectedSheet
+	selectedSheet.getRange("AX1").setValue("Sales Group Desc");
+	selectedSheet.getRange("AY1").setValue("Standard Name");
+	selectedSheet.getRange("AZ1").setValue("Name");
+	selectedSheet.getRange("BA1").setValue("Sales Channel");
+	selectedSheet.getRange("BB1").setValue("Standard Name 2");
+	// Ungroup at range AX:BB on selectedSheet
+	selectedSheet.getRange("AX:BB").ungroup(ExcelScript.GroupOption.byColumns); 	
+	// Set wrap text to true for range AX1:BB1 on selectedSheet
+	selectedSheet.getRange("AX1:BB1").getFormat().setWrapText(true);
+	// Toggle auto filter on selectedSheet
+	selectedSheet.getAutoFilter().apply(selectedSheet.getRange("A1").getExtendedRange(ExcelScript.KeyboardDirection.right));
+	// Set number format for range G2 on selectedSheet
+	selectedSheet.getRange("G2").setNumberFormatLocal("0");
+	// Set fill color to #ffff00 for range AX1 on selectedSheet
+	selectedSheet.getRange("AX1").getFormat().getFill().setColor("#ffff00");
+	// Set fill color to #ffff00 for range AY1 on selectedSheet
+	selectedSheet.getRange("AY1").getFormat().getFill().setColor("#ffff00");
+	// Set fill color to #ffff00 for range AZ1 on selectedSheet
+	selectedSheet.getRange("AZ1").getFormat().getFill().setColor("#ffff00");
+	// Set fill color to #ffff00 for range BB1 on selectedSheet
+	selectedSheet.getRange("BA1").getFormat().getFill().setColor("#ffff00");
+	// Set fill color to #ffff00 for range BB2 on selectedSheet
+	selectedSheet.getRange("BB1").getFormat().getFill().setColor("#ffff00");
+}
