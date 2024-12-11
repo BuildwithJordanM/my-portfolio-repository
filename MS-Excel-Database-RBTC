@@ -1,1 +1,15 @@
+# Excel Database Project
 
+## Overview
+This Excel database was created to manage and track Robert Bosch Tool Corporation seller violation data. It includes features like:
+- **Data validation** to ensure only correct data is entered.
+- **Pivot Tables** to analyze sales trends by region and product.
+- **Data Sources from multiple platforms such as the following: Price Spider/Prowl, Keepa, Salsify, SAP (Stop Ship), and Microsoft Office Email.
+- **Columns are sorted by SKU/Catalog # (Column H) and SAP Name (Column T), then filtered on Filter Status (Column F) for "Currently Monitoring" and the previous (2) weeks of information. This allows the rBUs to view 2-3 weeks worth of data and provided feedback on if they wish to stop ship or remove stop ship for a seller with SKUS, Data Source, Violation History, SAP Name, Notes, and if the seller listing is in violation or not.
+- **Added "Domain" (Column AA) which confirms the seller listing domain to track where the violations are coming from, along with the specific seller.
+- **Grouped Columns so all of the Columns will fit on (1) page for laptop users.
+- **Froze panes so only a few Columns are moved to navigate to the right side of the file and bottom of the file.
+- **Added a Pivot table for various data visualization points of data.
+- **Added a tab for Sales Back Office (SBO)/Customer Service team, whereas I duplicate the tab for a separate file and send to the SBO team to add or remove stop ships.
+- **Added a tab for Microsoft Office manual external send emails, whereas I filter to specific requirements and send to sellers. This is used to send to sellers whether its an Non-Acquiescence Email, Stop Ship Removal, or Stop Ship Additions.
+- **Color coded columns and rows for human visibility. 
