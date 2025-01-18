@@ -1,13 +1,75 @@
-Created 2 Microsoft Power BI Reports from the UP-ViolationDatabase Excel file.
-Created a dashboard with these (2) pages.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and category with a line chart.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Stop-Ship Feedback with a line chart.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Data Source with a line chart.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Domain with a line chart.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations by month-year and Non-Acquiscence with a line chart.
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations with a stacked column chart.
+# MS-Power-BI Repository  
+
+Welcome to the **Microsoft Power BI Dashboard Repository**, a collection of data visualizations designed to analyze and track key metrics related to violations and compliance efforts. This repository highlights dashboards that provide actionable insights for monitoring trends, identifying patterns, and supporting data-driven decisions.  
+
+---
+
+## Purpose  
+This repository was created to showcase Microsoft Power BI dashboards featuring various visualization types, including line graphs, bar graphs, and stacked graphs. The dashboards are specifically designed to display and analyze data related to violations by different dimensions and categories.  
+
+---
+
+## Key Dashboards and Metrics  
+
+### **1. Count of Violations by Month-Year and Business Unit**  
+- Visualizes the number of violations (`Yes`/`No`) over time, segmented by business units.  
+- Helps track compliance trends and identify high-violation units.  
+
+### **2. Count of Violations by Month-Year and Stop Ship Feedback**  
+- Displays violations (`Yes`/`No`) alongside stop ship statuses (Additions or Removals) over time.  
+- Provides insights into the impact of stop ship measures on compliance.  
+
+### **3. Count of Violations by Month-Year and Data Source**  
+- Breaks down violations by data sources (e.g., SAP, external systems) for each month-year.  
+- Highlights which sources contribute most to violation tracking.  
+
+### **4. Count of Violations by Month-Year and Domain**  
+- Tracks violations over time by domain.  
+- Useful for identifying patterns in domain-level compliance.  
+
+### **5. Count of Violations by SAP Name and Violation**  
+- Summarizes violations (`Yes`/`No`) associated with each SAP name.  
+- Helps identify recurring issues tied to specific names or entities in SAP.  
+
+### **6. Count of Violations by Month-Year and Non-Acquiescence Email Status**  
+- Displays violations by the status of non-acquiescence emails (Sent or N/A).  
+- Highlights the relationship between email communication and compliance efforts.  
+
+### **7. Count of Violations by SKU and Violation**  
+- Breaks down violations (`Yes`/`No`) by SKU numbers.  
+- Allows for SKU-level monitoring of compliance and violation trends.  
+
+---
+
+## Key Features  
+- **Dynamic Visualizations**: Line graphs, bar graphs, and stacked graphs for clear and interactive data exploration.  
+- **Customizable Filters**: Apply filters to focus on specific timeframes, business units, domains, or other dimensions.  
+- **Actionable Insights**: Identify trends, pinpoint areas for improvement, and track the effectiveness of compliance initiatives.  
+
+---
+
+## How to Use  
+1. Clone this repository and open the `.pbix` files in Microsoft Power BI Desktop.  
+2. Navigate through the dashboards to explore visualizations and insights.  
+3. Use filters to customize the views and focus on specific metrics or dimensions.  
+
+---
+
 This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations with a stacked bar chart.
 Second page with unique items count by SAP Name.
   -Click New Measure and then use the formula below.
   -UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU/Catalog #])
 https://app.powerbi.com/groups/me/dashboards/49416c8e-421e-40a4-b3a7-42468b64a657?experience=power-bi
+
+---
+
+## Contributing  
+Feedback and suggestions are welcome! If you’d like to contribute to this repository or share ideas for additional visualizations, feel free to open an issue or submit a pull request.  
+
+---
+
+## Contact  
+For questions or more information about the dashboards, please feel free to reach out.  
+
+Thank you for visiting the **MS-Power-BI Repository**!  
+
