@@ -18,7 +18,9 @@ This project involved creating a new **Microsoft Excel Potoo RGA template** to r
 2. **Print-Ready Layout**:  
    - Pre-set print areas ensure the file is exported with the correct dimensions and formatting.  
 3. **Linked Columns**:  
-   - Changes made to **Column M** automatically reflect across both tabs, improving efficiency and reducing redundancy.  
+   - Changes made to **Column M** automatically reflect across both tabs, improving efficiency and reducing redundancy.
+4. - **Zoom Adjustment**:  
+  - Set the zoom level to 50% for easier navigation and a comprehensive view of the data.
 
 ### **Additional Data Columns**  
 - New columns provide detailed insights into the Mystery Buy, including:  
