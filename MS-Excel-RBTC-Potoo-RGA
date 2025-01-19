@@ -1,11 +1,50 @@
-#I have created a Microsoft Excel Potoo RGA template, replacing an outdated version that was no longer suitable for our needs.
-##This new version is plug and play, which has a areas that need to be populated and then the file can be exported to a PDF.
-##This file also has the print areas included to the right dimensions.
-##Robert Bosch Tool Corporation.
-##The original RGA was a warranty Microsoft Excel file that was used for RGA Mystery Puchases (Potoo Mystery Buy Program RGA).
-##There were several columns and rows with information and details that were not needed for this Unilateral Pricing Program RGA Mystery Buy Program for unauthorized sellers.
-##The revised file is cleaner and simplistic.
-##On the revised version, there are only (2) tabs compared to the previous file with (4) tabs.
-##Added additional columns that are related to the ASIN and SKU for the Mystery Buy, examples are Seller ID, Seller Name, Image Links, Order ID, and more.
-##Make changes to Column M and it will reflect on both tabs.
-##There are formulas setup in the revised file that will auto-update.
+# Microsoft Excel Potoo RGA Template  
+
+## Overview  
+This project involved creating a new **Microsoft Excel Potoo RGA template** to replace the outdated version previously used for the **RGA Mystery Purchases** under the **Potoo Mystery Buy Program**. The new template is designed to be user-friendly, efficient, and tailored to the needs of the **Robert Bosch Tool Corporation's Unilateral Pricing Program**.  
+
+---
+
+## Key Improvements  
+
+### **Simplified Design**  
+- Reduced the number of tabs from **4** to **2**, focusing on only the essential data for the program.  
+- Removed unnecessary columns and rows that were irrelevant to the **Unilateral Pricing Program's RGA Mystery Buy Program** for unauthorized sellers.  
+
+### **Enhanced Features**  
+1. **Plug-and-Play Functionality**:  
+   - Areas to populate are clearly defined, making it easy for users to input required data.  
+   - File is exportable to PDF for streamlined sharing and documentation.  
+2. **Print-Ready Layout**:  
+   - Pre-set print areas ensure the file is exported with the correct dimensions and formatting.  
+3. **Linked Columns**:  
+   - Changes made to **Column M** automatically reflect across both tabs, improving efficiency and reducing redundancy.  
+
+### **Additional Data Columns**  
+- New columns provide detailed insights into the Mystery Buy, including:  
+  - **ASIN**  
+  - **SKU**  
+  - **Seller ID**  
+  - **Seller Name**  
+  - **Image Links**  
+  - **Order ID**  
+
+### **Automated Updates**  
+- Built-in formulas ensure that changes to key data fields automatically update throughout the file, reducing manual effort and the risk of errors.  
+
+---
+
+## Benefits  
+1. **Streamlined Workflow**:  
+   - A cleaner and more focused layout eliminates confusion and unnecessary steps.  
+2. **Ease of Use**:  
+   - Plug-and-play functionality and print-ready features make the template intuitive and efficient.  
+3. **Accuracy**:  
+   - Automated formulas ensure data consistency and reliability.  
+4. **Tailored for Purpose**:  
+   - Specifically designed for the **RGA Mystery Buy Program**, aligning with program objectives and removing irrelevant legacy data.  
+
+---
+
+This revised **Potoo RGA template** represents a significant improvement over the previous version, offering a cleaner, more functional, and user-friendly solution for managing RGA Mystery Purchases.  
+
