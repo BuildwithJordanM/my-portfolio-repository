@@ -1,2 +1,53 @@
-#The Pricing & Promotion team run daily price hold reports.
-#Instead of typing these price hold reports daily, instead of copying a template and pasting it into Microsoft Office Emails, I created "Signature Templates" for each customer name and customer number. This saved time.
+# Robert Bosch Tool Corportation Daily Price Hold Reports Automation  
+
+## Overview  
+The **Pricing & Promotion Team** generates daily **Price Hold Reports** to track and communicate pricing discrepancies for specific customers. To streamline the process and reduce repetitive tasks, I implemented two key solutions:  
+
+1. **Microsoft Outlook Email Signature Templates**  
+2. **Microsoft Excel Macros for Report Formatting**  
+
+---
+
+## Challenges Before Implementation  
+1. **Manual Effort**:  
+   - Daily emails required manually typing or copying customer names and numbers into templates.  
+   - Report formatting tasks such as bolding, highlighting cells, and adding filters were performed manually.  
+
+2. **Time-Consuming Process**:  
+   - Preparing and formatting reports 1–2 times daily was labor-intensive and prone to errors.  
+
+---
+
+## Solutions and Implementation  
+### 1. Microsoft Outlook Email Signature Templates  
+- Created **custom email signatures** for each customer name and number.  
+- Eliminated the need to copy and paste templates, saving time and ensuring accuracy.  
+
+### 2. Microsoft Excel Macros for Report Formatting  
+Developed Excel Macros to automate the following formatting tasks:  
+- **Bolding and Highlighting Cells**: Enhanced visibility of key data.  
+- **Adding Filters and Grouping Columns**: Improved data organization and readability.  
+- **Zoom Adjustment (80%)**: Standardized the view for better usability.  
+- **Column Renaming**: Simplified headers for clarity.  
+
+---
+
+## Benefits of Automation  
+1. **Increased Efficiency**:  
+   - Significantly reduced the time required to prepare daily reports and emails.  
+2. **Improved Consistency**:  
+   - Standardized formatting and communication, ensuring all stakeholders receive polished reports.  
+3. **Error Reduction**:  
+   - Minimized mistakes caused by manual input and formatting.  
+4. **Scalable Workflow**:  
+   - The process can be easily adapted for additional customers or future needs.  
+
+---
+
+## Frequency of Use  
+- These reports are generated **1–2 times daily**, highlighting the critical role of automation in maintaining productivity and accuracy.  
+
+---
+
+By leveraging **Microsoft Outlook Email Signatures** and **Excel Macros**, I streamlined a repetitive process into an efficient and reliable workflow, contributing to the overall effectiveness of the Pricing & Promotion Team.  
+
