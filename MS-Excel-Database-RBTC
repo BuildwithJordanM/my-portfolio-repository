@@ -1,17 +1,57 @@
-# Excel Database Project
+# Excel Database Project  
 
-## Overview
-This Excel database was created to manage and track Robert Bosch Tool Corporation seller violation data. It includes features like:
-- **Data validation** to ensure only correct data is entered.
-- **Pivot Tables** to analyze sales trends by region and product.
-- **Data Sources from multiple platforms such as the following: Price Spider/Prowl, Keepa, Salsify, SAP (Stop Ship), and Microsoft Office Email.
-- **Columns are sorted by SKU/Catalog # (Column H) and SAP Name (Column T), then filtered on Filter Status (Column F) for "Currently Monitoring" and the previous (2) weeks of information. This allows the rBUs to view 2-3 weeks worth of data and provided feedback on if they wish to stop ship or remove stop ship for a seller with SKUS, Data Source, Violation History, SAP Name, Notes, and if the seller listing is in violation or not.
-- **Added "Domain" (Column AA) which confirms the seller listing domain to track where the violations are coming from, along with the specific seller.
-- **Grouped Columns so all of the Columns will fit on (1) page for laptop users.
-- **Froze panes so only a few Columns are moved to navigate to the right side of the file and bottom of the file.
-- **Added a Pivot table for various data visualization points of data.
-- **Added a tab for Sales Back Office (SBO)/Customer Service team, whereas I duplicate the tab for a separate file and send to the SBO team to add or remove stop ships.
-- **Added a tab for Microsoft Office manual external send emails, whereas I filter to specific requirements and send to sellers. This is used to send to sellers whether its an Non-Acquiescence Email, Stop Ship Removal, or Stop Ship Additions.
-- **Color coded columns and rows for human visibility. 
-- **Added several columns like the PUP 1 Price, PUP 1 Start Date, PUP 1 End Date, and others to assist in reviewing if the seller listings are true violations since our PUP are promotions for each row listing.
-- **Transitioned these files to Microsoft SharePoint, as the previous users that managed Robert Bosch Tool Coporations Unilateral Pricing Program allowed rBUs to send their specific division files. This previous strategy caused confusion on which file was correct and there were many emails between the rBUs and the UPP user. My revisions simplifies this process as there is (1) file for everyone to update and review with a copy saved elsewhere.
+## Overview  
+This Excel database was developed to streamline and manage Robert Bosch Tool Corporation's seller violation data. It consolidates data from multiple sources, simplifies communication, and enhances data accuracy and accessibility.  
+
+---
+
+## Key Features  
+
+### **Data Management and Validation**  
+- **Data Validation**: Ensures only accurate and consistent data is entered.  
+- **Consolidated Data Sources**: Integrates inputs from various platforms, including:  
+  - Price Spider/Prowl  
+  - Keepa  
+  - Salsify  
+  - SAP (Stop Ship)  
+  - Microsoft Office Email  
+
+### **Data Organization and Analysis**  
+- **Sorted and Filtered Columns**:  
+  - Sorted by **SKU/Catalog #** (Column H) and **SAP Name** (Column T).  
+  - Filtered by **Filter Status** (Column F) to focus on "Currently Monitoring" entries and the previous two weeks of data.  
+  - Enables regional business units (rBUs) to review 2–3 weeks of data, provide feedback, and decide on stop ship actions.  
+- **Domain Tracking**:  
+  - Added a "Domain" column (Column AA) to identify seller listing domains and track violation sources.  
+- **Pivot Tables**:  
+  - Created for visualizing sales trends by region, product, and other metrics.  
+
+### **Usability Enhancements**  
+- **Grouped Columns**: Ensures all columns fit on one page for easier viewing on laptops.  
+- **Froze Panes**: Allows smooth navigation across rows and columns, especially on the right side or bottom of the file.  
+- **Color Coding**: Applied to columns and rows for better readability and human visibility.  
+- **Additional Columns**:  
+  - Added "PUP 1 Price," "PUP 1 Start Date," and "PUP 1 End Date" columns to verify whether seller listings are in violation or aligned with promotional periods.  
+
+### **Collaborative Workflow**  
+- **Tabs for Teams**:  
+  - **Sales Back Office (SBO)/Customer Service Tab**:  
+    - Duplicated and exported as a separate file for the SBO team to manage stop ships.  
+  - **Manual Email Tab**:  
+    - Filtered to specific requirements for external communications.  
+    - Enables sending Non-Acquiescence Emails, Stop Ship Removal notices, or Stop Ship Additions.  
+- **Centralized File Management**:  
+  - Transitioned files to Microsoft SharePoint for a single, accessible source of truth.  
+  - Eliminated confusion caused by multiple, outdated files shared via email.  
+
+---
+
+## Benefits  
+1. **Efficiency**: Streamlined workflows for managing seller violations, reducing manual effort and errors.  
+2. **Clarity**: Organized data for clear visibility into trends and violation status.  
+3. **Collaboration**: Enabled teams to work from a centralized file, reducing miscommunication and redundant efforts.  
+4. **Scalability**: Simplified processes allow for seamless updates and adaptations as business needs evolve.  
+
+---
+
+This project exemplifies the use of Excel for data consolidation, visualization, and process optimization in managing Robert Bosch Tool Corporation's Unilateral Pricing Program.  
