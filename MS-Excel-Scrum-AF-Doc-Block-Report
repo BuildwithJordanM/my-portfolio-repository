@@ -1,7 +1,7 @@
 # VBA Scripts for Scrum AF Document Block Report Automation  
 
 ## Overview  
-This project focuses on automating the **Scrum AF Document Block Report**, a monthly report used by **Robert Bosch Tool Corporation** to track orders, including cancellations, holds, and other order statuses. Previously, the process involved manual data export and manipulation, consuming significant time and effort.  
+This project focuses on automating the **Scrum AF Document Block Report**, a monthly report used by to track orders, including cancellations, holds, and other order statuses. Previously, the process involved manual data export and manipulation, consuming significant time and effort.  
 
 To streamline this process, a VBA script was developed to fully automate report preparation, significantly improving efficiency and accuracy.  
 
