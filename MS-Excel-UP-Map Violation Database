@@ -1,7 +1,7 @@
 # Excel Database Project  
 
 ## Overview  
-This Excel database was developed to streamline and manage Unilateral Pricing Program seller violation data. 
+This Excel database was developed to streamline and manage **pricing compliance and seller monitoring data**.  
 It consolidates data from multiple sources, simplifies communication, and enhances data accuracy and accessibility.  
 
 ---
@@ -10,49 +10,48 @@ It consolidates data from multiple sources, simplifies communication, and enhanc
 
 ### **Data Management and Validation**  
 - **Data Validation**: Ensures only accurate and consistent data is entered.  
-- **Consolidated Data Sources**: Integrates inputs from various platforms, including:  
-  - Price Spider/Prowl  
-  - Keepa  
-  - Salsify  
-  - SAP (Stop Ship)  
-  - Microsoft Office Email  
+- **Consolidated Data Sources**: Integrates inputs from various internal and external platforms, including:  
+  - Internal pricing and compliance tracking tools  
+  - Third-party market monitoring platforms  
+  - ERP system data exports  
+  - Email-based reports  
 
 ### **Data Organization and Analysis**  
 - **Sorted and Filtered Columns**:  
-  - Sorted by **SKU/Catalog #** (Column H) and **SAP Name** (Column T).  
-  - Filtered by **Filter Status** (Column F) to focus on "Currently Monitoring" entries and the previous two weeks of data.  
-  - Enables regional business units (rBUs) to review 2–3 weeks of data, provide feedback, and decide on stop ship actions.  
+  - Sorted by **SKU/Catalog #** and **Seller Name** for easy tracking.  
+  - Filtered by **Compliance Status** to focus on active monitoring cases and recent data.  
+  - Enables regional business units (rBUs) to review **2–3 weeks of data**, provide feedback, and take necessary actions.  
 - **Domain Tracking**:  
-  - Added a "Domain" column (Column AA) to identify seller listing domains and track violation sources.  
+  - Added a "Domain" column to identify listing sources and monitor compliance issues.  
 - **Pivot Tables**:  
-  - Created for visualizing sales trends by region, product, and other metrics.  
+  - Created for visualizing trends by region, product, and other key metrics.  
 
 ### **Usability Enhancements**  
 - **Grouped Columns**: Ensures all columns fit on one page for easier viewing on laptops.  
 - **Froze Panes**: Allows smooth navigation across rows and columns, especially on the right side or bottom of the file.  
-- **Color Coding**: Applied to columns and rows for better readability and human visibility.  
+- **Color Coding**: Applied to columns and rows for better readability.  
 - **Additional Columns**:  
-  - Added "PUP 1 Price," "PUP 1 Start Date," and "PUP 1 End Date" columns to verify whether seller listings are in violation or aligned with promotional periods.  
+  - Added "Promo Price," "Start Date," and "End Date" columns to verify whether listings align with promotional periods.  
 
 ### **Collaborative Workflow**  
 - **Tabs for Teams**:  
   - **Customer Service Tab**:  
-    - Duplicated and exported as a separate file for the customer service team to manage stop ships.  
-  - **Manual Email Tab**:  
+    - Duplicated and exported as a separate file for external team members to manage compliance cases.  
+  - **Email Notification Tab**:  
     - Filtered to specific requirements for external communications.  
-    - Enables sending Non-Acquiescence Emails, Stop Ship Removal notices, or Stop Ship Additions.  
+    - Enables sending compliance notifications to sellers.  
 - **Centralized File Management**:  
-  - Transitioned files to Microsoft SharePoint for a single, accessible source of truth.  
+  - Transitioned files to **Microsoft SharePoint** for a single, accessible source of truth.  
   - Eliminated confusion caused by multiple, outdated files shared via email.  
 
 ---
 
 ## Benefits  
-1. **Efficiency**: Streamlined workflows for managing seller violations, reducing manual effort and errors.  
-2. **Clarity**: Organized data for clear visibility into trends and violation status.  
+1. **Efficiency**: Streamlined workflows for managing compliance tracking, reducing manual effort and errors.  
+2. **Clarity**: Organized data for clear visibility into trends and compliance status.  
 3. **Collaboration**: Enabled teams to work from a centralized file, reducing miscommunication and redundant efforts.  
 4. **Scalability**: Simplified processes allow for seamless updates and adaptations as business needs evolve.  
 
 ---
 
-This project exemplifies the use of Excel for data consolidation, visualization, and process optimization in managing the Unilateral Pricing Program.  
+This project exemplifies the use of Excel for **data consolidation, visualization, and process optimization** in managing **pricing compliance and seller monitoring**.  
