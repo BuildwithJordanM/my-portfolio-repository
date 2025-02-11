@@ -1,0 +1,51 @@
+# 2024 Q1 Pricing Grid Template Optimization  
+
+## Overview  
+In preparation for the **2024 Q1 Pricing Grid**, I reviewed the existing template and identified opportunities to improve usability and clarity for stakeholders, including business teams and pricing analysts. After presenting my suggestions and receiving approval, I implemented significant revisions to simplify and enhance the template.  
+
+---
+
+## Key Improvements  
+
+### **Simplification of Data Presentation**  
+- **Change Type Column**:  
+  - Introduced a new **"Change Type"** column to track modifications, such as removed items, promotional timing, and product updates.  
+  - Eliminated the need for separate rows or tabs for these changes, streamlining the **Consolidated Pricing Grid** and individual business team tabs.  
+
+- **Consolidated Data**:  
+  - The **Change Type** column now feeds directly into the **Pricing Grid Consolidated Tab**, providing a centralized view of all changes.  
+
+---
+
+### **Enhanced Usability**  
+- **Grouped Columns**:  
+  - Grouped all columns related to **promotional details**, including:  
+    - **Promotional price tiers**.  
+    - **Start and end dates for each promotional phase**.  
+  - This ensures a **cleaner layout** and better organization for users.  
+
+- **Improved Formatting**:  
+  - Adjusted **font type and size** for better readability.  
+  - Standardized the layout for **consistency across all tabs**.  
+
+- **Zoom Adjustment**:  
+  - Set the zoom level to **80%** for **easier navigation** and a **comprehensive view of the data**.  
+
+---
+
+### **Streamlined Collaboration**  
+- **Microsoft SharePoint Integration**:  
+  - Made the updated file shareable to all stakeholders via **Microsoft SharePoint**.  
+  - Eliminated the need to send multiple files back and forth, improving workflow efficiency.  
+  - The centralized file ensured that all stakeholders had access to the **latest version in real-time**, reducing confusion and enhancing efficiency.  
+
+---
+
+## **Impact**  
+The **revamped pricing grid template** offers:  
+- **Improved Clarity**: Users can quickly identify changes and updates via the **"Change Type"** column.  
+- **Streamlined Workflow**: **Centralized and consolidated data** reduces the need to navigate multiple tabs for information.  
+- **Enhanced User Experience**: Formatting and **zoom adjustments** make the template **more accessible and user-friendly**.  
+- **Better Collaboration**: **SharePoint integration** ensured **seamless access** for all business teams, fostering **real-time updates** and reducing redundant communication.  
+
+By making these improvements, the **updated pricing grid template** aligns with the goal of **simplifying processes while maintaining accuracy and transparency** across all stakeholders.  
