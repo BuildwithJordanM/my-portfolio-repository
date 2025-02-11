@@ -1,46 +1,46 @@
-# Microaoft Excel Pricing Database Project  
+# Microsoft Excel Pricing Database Project  
 
 ## Overview  
-While working, I identified inefficiencies in how quotes were being managed. 
-Quotes were tracked individually, with limited depth of information and no centralized system. 
+While working in pricing operations, I identified inefficiencies in how quotes were being managed.  
+Quotes were tracked individually, with limited visibility and no centralized system.  
 To address this, I proposed and developed a **Pricing Database** to streamline and standardize the quoting process, ensuring comprehensive data tracking and improved decision-making.  
 
-After pulling data from the previous two years of quotes and presenting the database to the **Pricing Manager** and **Finance Director**, incorporating their feedback, the project was approved and adopted as the new standard.  
+After analyzing two years of quote data and presenting the database to key decision-makers, incorporating feedback, the project was approved and adopted as the new standard.  
 
 ---
 
 ## Database Features  
-The **Pricing Database** (MasterQuoteAnalysis) was designed with several advanced features:  
+The **Pricing Database** (MasterQuoteAnalysis) was designed with several key features:  
 
 ### Quote Management  
-- **Preparation and Approval Workflow**:  
-   - Tracks team members preparing quotes.  
-   - Approval process includes Pricing Manager, Pricing Analyst, President, Finance Manager, and Marketing Director.  
+- **Approval Workflow**:  
+   - Tracks team members involved in quoting.  
+   - Multi-level approval process involving pricing and finance teams.  
 
 - **Detailed Quote Information**:  
    - References to previous and new quotes.  
    - Quote classification: One-time or Blanket (Annual).  
-   - CRM Ticket Number (Workfront).  
+   - CRM tracking ID for reference.  
    - Quote status: No Access, Pending, Quoted.  
-   - Automatic calculation of CRM Workfront ticket completion times.  
+   - Automatic calculation of CRM ticket completion times.  
 
 ### Customer and Vendor Details  
 - **Customer Information**:  
-   - Account number, Name, Group Code, Price Level, Terms of Payment.  
-   - Sales representative details: Name, Email, Phone Number, Job Title.  
+   - Account number, Name, Group Code, Price Level, Payment Terms.  
+   - Sales representative details: Contact Name, Email, and Job Title.  
 
 - **Vendor Sourcing Tab**:  
-   - Communicated and negotiated with vendors for product costs not included in their standard price files.  
-   - Captured vendor-specific pricing based on requested quantities from sales reps and purchasing team discussions.  
+   - Tracks vendor product costs that are not included in standard price files.  
+   - Captures vendor-specific pricing based on sales rep requests and purchasing team discussions.  
 
 ### Pricing and Cost Calculations  
 - **Data Integration**:  
-   - Integrated business intelligence (BI) invoice details, including price sold, quantity sold, and more.  
-   - Utilized **VLOOKUP** to match Autocar Parts costs by vendor, factoring in requested sales rep quantities.  
+   - Integrated invoice and sales data for analysis.  
+   - Used **VLOOKUP** to match product costs by vendor, factoring in requested sales rep quantities.  
 
 - **Cost and Margin Analysis**:  
-   - Item/SKU details and descriptions.  
-   - Freight costs, core charges, vendor minimum order quantities (MOQ), and other fees.  
+   - SKU/item details and descriptions.  
+   - Freight costs, core charges, minimum order quantities (MOQ), and other fees.  
    - Material margin analysis: Historical and current, rolling 12-month metrics, and target margins.  
    - Pricing breakdown: Offer prices, margins, and total values calculated for each SKU.  
 
@@ -50,14 +50,14 @@ The **Pricing Database** (MasterQuoteAnalysis) was designed with several advance
 The **Pricing Database** included interconnected tabs that fed into one another to generate insightful metrics and reports. A dedicated tab, **ExcelQuoteMetrics**, provided tools for advanced reporting:  
 
 1. **Performance Tracking**:  
-   - Status of quotes: Won, Lost, Pending, or Partial (e.g., winning one or more SKUs in a multi-SKU quote).  
+   - Status of quotes: Won, Lost, Pending, or Partial (winning one or more SKUs in a multi-SKU quote).  
    - Total opportunities tracked by dollar value and percentage.  
 
 2. **Visualization Tools**:  
    - Microsoft Excel Pivot Tables for in-depth analysis.  
    - Pie charts for visualizing:  
      - Quote outcomes (Won/Lost/Partial).  
-     - Time taken to complete CRM Workfront ticket requests.  
+     - Time taken to complete CRM ticket requests.  
      - Number of SKUs/items per quote.  
 
 3. **Key Metrics**:  
@@ -68,11 +68,10 @@ The **Pricing Database** included interconnected tabs that fed into one another 
 ---
 
 ## Impact  
-The **Pricing Database** revolutionized quote management for the pricing team by:  
+The **Pricing Database** revolutionized quote management by:  
 - **Centralizing Data**: Unified all quoting information into a single system with interconnected tabs feeding data into summary metrics.  
 - **Enhancing Vendor Collaboration**: Facilitated vendor negotiations for non-standard pricing and integrated those costs seamlessly into the database.  
-- **Improving Decision-Making**: Provided real-time insights through business intelligence invoice data, material margin tracking, and visual performance metrics.  
+- **Improving Decision-Making**: Provided real-time insights through invoice data, material margin tracking, and performance metrics.  
 - **Streamlining Processes**: Automated calculations and workflows reduced manual effort and minimized errors.  
 
-By standardizing quote tracking and enabling data-driven decision-making, this project significantly optimized operations and established a scalable foundation for future pricing strategies.  
-
+By standardizing quote tracking and enabling data-driven decision-making, this project significantly optimized pricing operations and established a scalable foundation for future strategy improvements.  
