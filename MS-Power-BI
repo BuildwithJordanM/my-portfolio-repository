@@ -8,7 +8,6 @@ Welcome to the **Microsoft Power BI Dashboard Repository**, a collection of data
 This repository was created to showcase Microsoft Power BI dashboards featuring various visualization types, including line graphs, bar graphs, and stacked graphs. The dashboards are specifically designed to display and analyze data related to violations by different dimensions and categories.  
 
 ---
-Robert Bosch Tool Corporation Usage
 ## Key Dashboards and Metrics  
 
 ### **1. Count of Violations by Month-Year and Business Unit**  
@@ -55,7 +54,7 @@ Robert Bosch Tool Corporation Usage
 
 ---
 
-This dashboard displays Robert Bosch Tool Corporation Unilateral Pricing Program seller violations with a stacked bar chart.
+This dashboard displays Unilateral Pricing Program seller violations with a stacked bar chart.
 Second page with unique items count by SAP Name.
   -Click New Measure and then use the formula below.
   -UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU/Catalog #])
@@ -70,7 +69,7 @@ Feedback and suggestions are welcome! If you’d like to contribute to this repo
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 ---
-Autocar Parts Usage
+Usage
 
 
 
