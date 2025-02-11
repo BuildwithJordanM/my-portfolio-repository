@@ -1,7 +1,7 @@
-# Robert Bosch Tool Corportation Daily Price Hold Reports Automation  
+# Price Hold Reports Automation  
 
 ## Overview  
-The **Pricing & Promotion Team** generates daily **Price Hold Reports** to track and communicate pricing discrepancies for specific customers. To streamline the process and reduce repetitive tasks, I implemented two key solutions:  
+The **Pricing Team** generates daily **Price Hold Reports** to track and communicate pricing discrepancies for specific customers. To streamline the process and reduce repetitive tasks, I implemented two key solutions:  
 
 1. **Microsoft Outlook Email Signature Templates**  
 2. **Microsoft Excel Macros for Report Formatting**  
