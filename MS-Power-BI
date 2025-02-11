@@ -1,80 +1,63 @@
 # MS-Power-BI Repository  
 
-Welcome to the **Microsoft Power BI Dashboard Repository**, a collection of data visualizations designed to analyze and track key metrics related to violations and compliance efforts. This repository highlights dashboards that provide actionable insights for monitoring trends, identifying patterns, and supporting data-driven decisions.  
+Welcome to the **Microsoft Power BI Dashboard Repository**, a collection of **data visualizations** designed to analyze and track key compliance metrics. This repository highlights dashboards that provide **actionable insights** for monitoring trends, identifying patterns, and supporting **data-driven decisions**.  
 
 ---
 
-## Purpose  
-This repository was created to showcase Microsoft Power BI dashboards featuring various visualization types, including line graphs, bar graphs, and stacked graphs. The dashboards are specifically designed to display and analyze data related to violations by different dimensions and categories.  
-
----
-## Key Dashboards and Metrics  
-
-### **1. Count of Violations by Month-Year and Business Unit**  
-- Visualizes the number of violations (`Yes`/`No`) over time, segmented by business units.  
-- Helps track compliance trends and identify high-violation units.  
-
-### **2. Count of Violations by Month-Year and Stop Ship Feedback**  
-- Displays violations (`Yes`/`No`) alongside stop ship statuses (Additions or Removals) over time.  
-- Provides insights into the impact of stop ship measures on compliance.  
-
-### **3. Count of Violations by Month-Year and Data Source**  
-- Breaks down violations by data sources (e.g., SAP, external systems) for each month-year.  
-- Highlights which sources contribute most to violation tracking.  
-
-### **4. Count of Violations by Month-Year and Domain**  
-- Tracks violations over time by domain.  
-- Useful for identifying patterns in domain-level compliance.  
-
-### **5. Count of Violations by SAP Name and Violation**  
-- Summarizes violations (`Yes`/`No`) associated with each SAP name.  
-- Helps identify recurring issues tied to specific names or entities in SAP.  
-
-### **6. Count of Violations by Month-Year and Non-Acquiescence Email Status**  
-- Displays violations by the status of non-acquiescence emails (Sent or N/A).  
-- Highlights the relationship between email communication and compliance efforts.  
-
-### **7. Count of Violations by SKU and Violation**  
-- Breaks down violations (`Yes`/`No`) by SKU numbers.  
-- Allows for SKU-level monitoring of compliance and violation trends.  
+## **Purpose**  
+This repository was created to showcase **Microsoft Power BI dashboards** featuring **various visualization types**, including **line graphs, bar graphs, and stacked graphs**. These dashboards are designed to **display and analyze compliance-related data** across multiple dimensions and categories.  
 
 ---
 
-## Key Features  
-- **Dynamic Visualizations**: Line graphs, bar graphs, and stacked graphs for clear and interactive data exploration.  
-- **Customizable Filters**: Apply filters to focus on specific timeframes, business units, domains, or other dimensions.  
-- **Actionable Insights**: Identify trends, pinpoint areas for improvement, and track the effectiveness of compliance initiatives.  
+## **Key Dashboards and Metrics**  
+
+### **1. Count of Compliance Issues by Month-Year and Business Unit**  
+- Visualizes the number of compliance cases (`Yes`/`No`) over time, segmented by business units.  
+- Helps track policy trends and identify areas needing improvement.  
+
+### **2. Count of Compliance Issues by Month-Year and Compliance Action Feedback**  
+- Displays compliance cases (`Yes`/`No`) alongside **compliance action statuses** (e.g., "Reviewed," "Pending").  
+- Provides insights into the impact of compliance measures.  
+
+### **3. Count of Compliance Issues by Month-Year and Data Source**  
+- Breaks down compliance cases by **internal and external data sources** for each month-year.  
+- Highlights which sources contribute most to compliance tracking.  
+
+### **4. Count of Compliance Issues by Month-Year and Domain**  
+- Tracks compliance issues over time by **source domains**.  
+- Useful for identifying patterns in **compliance monitoring**.  
+
+### **5. Count of Compliance Issues by System Reference Name**  
+- Summarizes compliance cases (`Yes`/`No`) associated with each **system reference name**.  
+- Helps identify recurring issues tied to **specific data entries**.  
+
+### **6. Count of Compliance Issues by Month-Year and Compliance Notification Status**  
+- Displays compliance issues by the status of **policy notifications** (e.g., "Sent" or "N/A").  
+- Highlights the relationship between **email communication** and **compliance monitoring**.  
+
+### **7. Count of Compliance Issues by SKU and Policy Status**  
+- Breaks down compliance cases (`Yes`/`No`) by **SKU numbers**.  
+- Allows for **SKU-level monitoring** of compliance and policy adherence.  
 
 ---
 
-## How to Use  
-1. Clone this repository and open the `.pbix` files in Microsoft Power BI Desktop.  
-2. Navigate through the dashboards to explore visualizations and insights.  
-3. Use filters to customize the views and focus on specific metrics or dimensions.  
+## **Key Features**  
+- **Dynamic Visualizations**: **Line graphs, bar graphs, and stacked graphs** for clear and interactive **data exploration**.  
+- **Customizable Filters**: Apply filters to focus on specific **timeframes, business units, domains**, or other **dimensions**.  
+- **Actionable Insights**: Identify **trends, pinpoint areas for improvement, and track the effectiveness** of compliance initiatives.  
 
 ---
 
-This dashboard displays Unilateral Pricing Program seller violations with a stacked bar chart.
-Second page with unique items count by SAP Name.
-  -Click New Measure and then use the formula below.
-  -UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU/Catalog #])
-https://app.powerbi.com/groups/me/dashboards/49416c8e-421e-40a4-b3a7-42468b64a657?experience=power-bi
+## **How to Use**  
+1. **Clone this repository** and open the `.pbix` files in **Microsoft Power BI Desktop**.  
+2. **Navigate through the dashboards** to explore visualizations and insights.  
+3. **Use filters** to customize the views and focus on **specific metrics or dimensions**.  
 
 ---
 
-## Contributing  
-Feedback and suggestions are welcome! If you’d like to contribute to this repository or share ideas for additional visualizations, feel free to open an issue or submit a pull request.  
+## **Sample Power BI Measure**  
 
----
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Below is an example of a **DAX measure** used in the dashboards to count unique SKUs in compliance reports:  
 
----
-Usage
-
-
-
-## Contact  
-For questions or more information about the dashboards, please feel free to reach out.  
-
-Thank you for visiting the **MS-Power-BI Repository**!  
-
+```DAX
+UniqueItemsCount = DISTINCTCOUNT(Sheet1[SKU])
