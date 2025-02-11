@@ -1,29 +1,31 @@
-# Price Hold Reports Automation  
+# Pricing Compliance Reports Automation  
 
 ## Overview  
-The **Pricing Team** generates daily **Price Hold Reports** to track and communicate pricing discrepancies for specific customers. To streamline the process and reduce repetitive tasks, I implemented two key solutions:  
+To streamline **pricing compliance reporting** and reduce repetitive tasks, I implemented two key solutions:  
 
-1. **Microsoft Outlook Email Signature Templates**  
+1. **Preformatted Microsoft Outlook Email Templates**  
 2. **Microsoft Excel Macros for Report Formatting**  
 
+These enhancements improved efficiency in tracking and communicating **pricing discrepancies** for specific customers.  
+
 ---
 
-## Challenges Before Implementation  
+## **Challenges Before Implementation**  
 1. **Manual Effort**:  
    - Daily emails required manually typing or copying customer names and numbers into templates.  
-   - Report formatting tasks such as bolding, highlighting cells, and adding filters were performed manually.  
+   - Report formatting tasks such as **bolding, highlighting cells, and adding filters** were performed manually.  
 
 2. **Time-Consuming Process**:  
-   - Preparing and formatting reports 1–2 times daily was labor-intensive and prone to errors.  
+   - Preparing and formatting reports **1–2 times daily** was labor-intensive and prone to errors.  
 
 ---
 
-## Solutions and Implementation  
-### 1. Microsoft Outlook Email Signature Templates  
-- Created **custom email signatures** for each customer name and number.  
-- Eliminated the need to copy and paste templates, saving time and ensuring accuracy.  
+## **Solutions and Implementation**  
+### **1. Preformatted Microsoft Outlook Email Templates**  
+- Created **customized email templates** with placeholders for **customer names and numbers**.  
+- Eliminated the need for manual copying and pasting, **saving time and ensuring accuracy**.  
 
-### 2. Microsoft Excel Macros for Report Formatting  
+### **2. Microsoft Excel Macros for Report Formatting**  
 Developed Excel Macros to automate the following formatting tasks:  
 - **Bolding and Highlighting Cells**: Enhanced visibility of key data.  
 - **Adding Filters and Grouping Columns**: Improved data organization and readability.  
@@ -32,22 +34,18 @@ Developed Excel Macros to automate the following formatting tasks:
 
 ---
 
-## Benefits of Automation  
+## **Benefits of Automation**  
 1. **Increased Efficiency**:  
-   - Significantly reduced the time required to prepare daily reports and emails.  
+   - Significantly **reduced the time required** to prepare daily reports and emails.  
 2. **Improved Consistency**:  
-   - Standardized formatting and communication, ensuring all stakeholders receive polished reports.  
+   - Standardized formatting and communication, ensuring all stakeholders receive **polished, professional reports**.  
 3. **Error Reduction**:  
-   - Minimized mistakes caused by manual input and formatting.  
+   - Minimized mistakes caused by **manual input and formatting**.  
 4. **Scalable Workflow**:  
-   - The process can be easily adapted for additional customers or future needs.  
+   - The process can be **easily adapted** for additional customers or future needs.  
 
 ---
 
-## Frequency of Use  
-- These reports are generated **1–2 times daily**, highlighting the critical role of automation in maintaining productivity and accuracy.  
-
----
-
-By leveraging **Microsoft Outlook Email Signatures** and **Excel Macros**, I streamlined a repetitive process into an efficient and reliable workflow, contributing to the overall effectiveness of the Pricing & Promotion Team.  
+## **Frequency of Use**  
+- These reports are generated **1–2 times daily**, emphasizing the importance of automation in **maintaining productivity and accuracy**.  
 
