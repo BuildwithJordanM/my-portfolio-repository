@@ -1,38 +1,35 @@
-# Microsoft Excel Potoo RGA Template  
+# Microsoft Excel RGA Tracking Template  
 
 ## Overview  
-This project involved creating a new **Microsoft Excel Potoo RGA template** to replace the outdated version previously used for the **RGA Mystery Purchases** under the **Potoo Mystery Buy Program**. The new template is designed to be user-friendly, efficient, and tailored to the needs of the Unilateral Pricing Program**.  
+This project involved creating a new **Microsoft Excel RGA tracking template** to replace an outdated version previously used for **mystery buy tracking and reporting**. The new template is designed to be user-friendly, efficient, and tailored to the needs of the **pricing compliance process**.  
 
 ---
 
 ## Key Improvements  
 
 ### **Simplified Design**  
-- Reduced the number of tabs from **4** to **2**, focusing on only the essential data for the program.  
-- Removed unnecessary columns and rows that were irrelevant to the **Unilateral Pricing Program's RGA Mystery Buy Program** for unauthorized sellers.  
+- Reduced the number of tabs from **4** to **2**, focusing on essential data.  
+- Removed unnecessary columns and rows to streamline the **mystery buy tracking process**.  
 
 ### **Enhanced Features**  
 1. **Plug-and-Play Functionality**:  
-   - Areas to populate are clearly defined, making it easy for users to input required data.  
-   - File is exportable to PDF for streamlined sharing and documentation.  
+   - Clearly defined input areas for quick and easy data entry.  
+   - File can be exported to PDF for streamlined sharing and documentation.  
 2. **Print-Ready Layout**:  
-   - Pre-set print areas ensure the file is exported with the correct dimensions and formatting.  
+   - Pre-set print areas ensure the file is formatted correctly when exported.  
 3. **Linked Columns**:  
-   - Changes made to **Column M** automatically reflect across both tabs, improving efficiency and reducing redundancy.
-4. - **Zoom Adjustment**:  
-  - Set the zoom level to 50% for easier navigation and a comprehensive view of the data.
+   - Changes made to **Column M** automatically reflect across both tabs, improving efficiency and reducing redundancy.  
+4. **Zoom Adjustment**:  
+   - Set the zoom level to 50% for easier navigation and a comprehensive data view.  
 
-### **Additional Data Columns**  
-- New columns provide detailed insights into the Mystery Buy, including:  
-  - **ASIN**  
-  - **SKU**  
-  - **Seller ID**  
-  - **Seller Name**  
-  - **Image Links**  
-  - **Order ID**  
+### **Additional Data Tracking Fields**  
+- New columns provide enhanced insights into purchase tracking, including:  
+  - **Product Identifiers** (e.g., SKU, ASIN)  
+  - **Order Details**  
+  - **Tracking Links**  
 
 ### **Automated Updates**  
-- Built-in formulas ensure that changes to key data fields automatically update throughout the file, reducing manual effort and the risk of errors.  
+- Built-in formulas ensure that key data fields update automatically, reducing manual effort and minimizing errors.  
 
 ---
 
@@ -44,9 +41,8 @@ This project involved creating a new **Microsoft Excel Potoo RGA template** to r
 3. **Accuracy**:  
    - Automated formulas ensure data consistency and reliability.  
 4. **Tailored for Purpose**:  
-   - Specifically designed for the **RGA Mystery Buy Program**, aligning with program objectives and removing irrelevant legacy data.  
+   - Specifically designed for **mystery buy tracking**, aligning with reporting objectives while removing irrelevant legacy data.  
 
 ---
 
-This revised **Potoo RGA template** represents a significant improvement over the previous version, offering a cleaner, more functional, and user-friendly solution for managing RGA Mystery Purchases.  
-
+This updated **RGA tracking template** represents a significant improvement over the previous version, offering a **cleaner, more functional, and user-friendly** solution for managing purchase tracking and reporting.  
