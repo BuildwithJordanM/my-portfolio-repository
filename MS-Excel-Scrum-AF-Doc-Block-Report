@@ -1,9 +1,9 @@
-# VBA Scripts for Scrum AF Document Block Report Automation  
+# VBA Scripts for Order Status Report Automation  
 
 ## Overview  
-This project focuses on automating the **Scrum AF Document Block Report**, a monthly report used by to track orders, including cancellations, holds, and other order statuses. Previously, the process involved manual data export and manipulation, consuming significant time and effort.  
+This project focuses on automating the **Order Status Report**, a monthly report used to track orders, including processing updates, adjustments, and final status. Previously, the process involved manual data export and manipulation, which was time-consuming and prone to errors.  
 
-To streamline this process, a VBA script was developed to fully automate report preparation, significantly improving efficiency and accuracy.  
+To streamline this process, a **VBA script** was developed to fully automate report preparation, significantly improving efficiency and accuracy.  
 
 ---
 
@@ -11,19 +11,19 @@ To streamline this process, a VBA script was developed to fully automate report 
 
 ### **Challenges with the Previous Process**  
 - **Manual Workflow**:  
-  - Data had to be manually exported from SAP each month.  
-  - Formatting, column additions, and calculations were all done manually, which was time-intensive and prone to errors.  
+  - Data had to be manually exported from an **ERP system** each month.  
+  - Formatting, column additions, and calculations were all done manually, making the process inefficient.  
 - **Time-Consuming**:  
   - Completing the report manually required over **30 minutes** each month.  
 
 ### **Automated Workflow**  
-The newly created VBA script eliminates manual intervention by:  
+The newly created **VBA script** eliminates manual intervention by:  
 1. **Data Formatting and Structuring**:  
    - Automatically adds and formats required columns.  
    - Highlights header cells for better visibility.  
-   - Groups columns to ensure the report is compact and easier to navigate.  
+   - Groups columns to keep the report compact and easy to navigate.  
 2. **Data Calculation**:  
-   - Inserts pre-defined formulas to aggregate data required for monthly reporting.  
+   - Inserts pre-defined formulas to aggregate key metrics for monthly reporting.  
 3. **Efficiency Gains**:  
    - Reduces processing time from over **30 minutes** to just a few seconds.  
 
@@ -31,18 +31,14 @@ The newly created VBA script eliminates manual intervention by:
 
 ## Benefits of the Automation  
 1. **Time Savings**:  
-   - Significant reduction in report preparation time, freeing up resources for other tasks.  
+   - Significantly reduces report preparation time, freeing up resources for other tasks.  
 2. **Improved Accuracy**:  
-   - Automation minimizes human error in formatting, calculations, and data structuring.  
+   - Automation minimizes human errors in formatting, calculations, and data structuring.  
 3. **Enhanced Productivity**:  
-   - Enables the team to focus on analyzing the data rather than preparing it.  
+   - Enables the team to focus on analyzing the data rather than manually preparing it.  
 4. **Consistency**:  
-   - Standardized formatting and calculations ensure that reports are uniform every month.  
+   - Standardized formatting and calculations ensure uniform reports every month.  
 
----
-
-This automation demonstrates the power of **VBA scripting** in optimizing repetitive tasks, showcasing the ability to improve efficiency and accuracy in data processing.  
-Please view the VBA Code below:
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
