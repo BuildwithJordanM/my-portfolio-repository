@@ -1,7 +1,8 @@
 # Excel Database Project  
 
 ## Overview  
-This Excel database was developed to streamline and manage Robert Bosch Tool Corporation's seller violation data. It consolidates data from multiple sources, simplifies communication, and enhances data accuracy and accessibility.  
+This Excel database was developed to streamline and manage Unilateral Pricing Program seller violation data. 
+It consolidates data from multiple sources, simplifies communication, and enhances data accuracy and accessibility.  
 
 ---
 
@@ -35,8 +36,8 @@ This Excel database was developed to streamline and manage Robert Bosch Tool Cor
 
 ### **Collaborative Workflow**  
 - **Tabs for Teams**:  
-  - **Sales Back Office (SBO)/Customer Service Tab**:  
-    - Duplicated and exported as a separate file for the SBO team to manage stop ships.  
+  - **Customer Service Tab**:  
+    - Duplicated and exported as a separate file for the customer service team to manage stop ships.  
   - **Manual Email Tab**:  
     - Filtered to specific requirements for external communications.  
     - Enables sending Non-Acquiescence Emails, Stop Ship Removal notices, or Stop Ship Additions.  
@@ -54,4 +55,4 @@ This Excel database was developed to streamline and manage Robert Bosch Tool Cor
 
 ---
 
-This project exemplifies the use of Excel for data consolidation, visualization, and process optimization in managing Robert Bosch Tool Corporation's Unilateral Pricing Program.  
+This project exemplifies the use of Excel for data consolidation, visualization, and process optimization in managing the Unilateral Pricing Program.  
