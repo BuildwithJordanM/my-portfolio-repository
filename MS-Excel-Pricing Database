@@ -1,7 +1,9 @@
-# Autocar Parts Pricing Microsoft Excel Database Project  
+# Microaoft Excel Pricing Database Project  
 
 ## Overview  
-While working at **Autocar Parts**, I identified inefficiencies in how quotes were being managed. Quotes were tracked individually, with limited depth of information and no centralized system. To address this, I proposed and developed a **Pricing Database** to streamline and standardize the quoting process, ensuring comprehensive data tracking and improved decision-making.  
+While working, I identified inefficiencies in how quotes were being managed. 
+Quotes were tracked individually, with limited depth of information and no centralized system. 
+To address this, I proposed and developed a **Pricing Database** to streamline and standardize the quoting process, ensuring comprehensive data tracking and improved decision-making.  
 
 After pulling data from the previous two years of quotes and presenting the database to the **Pricing Manager** and **Finance Director**, incorporating their feedback, the project was approved and adopted as the new standard.  
 
@@ -66,7 +68,7 @@ The **Pricing Database** included interconnected tabs that fed into one another 
 ---
 
 ## Impact  
-The **Pricing Database** revolutionized quote management at Autocar Parts by:  
+The **Pricing Database** revolutionized quote management for the pricing team by:  
 - **Centralizing Data**: Unified all quoting information into a single system with interconnected tabs feeding data into summary metrics.  
 - **Enhancing Vendor Collaboration**: Facilitated vendor negotiations for non-standard pricing and integrated those costs seamlessly into the database.  
 - **Improving Decision-Making**: Provided real-time insights through business intelligence invoice data, material margin tracking, and visual performance metrics.  
